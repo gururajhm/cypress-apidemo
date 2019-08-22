@@ -3,12 +3,12 @@
   "chromeWebSecurity": false,
 
   "env": {
-    "URL": "https://reqres.in"
+    "URL": "https://reqres.in/"
   },
 
   "reporter": "mochawesome",
   "reporterOptions": {
-  "overwrite": false,
+  "overwrite": true,
   "html": false,
   "json": true
  }
