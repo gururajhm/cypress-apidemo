@@ -9,5 +9,5 @@ https://reqres.in is a demo website where people can try out the API test. In th
 ## Use Cases
 Fetch Users
 Add New Users
-Edit Users
+Edit Users    
 Delete Users

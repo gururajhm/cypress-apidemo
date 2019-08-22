@@ -1,0 +1,15 @@
+{
+  "projectId": "4b7344",
+  "chromeWebSecurity": false,
+
+  "env": {
+    "URL": "https://reqres.in"
+  },
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+  "overwrite": false,
+  "html": false,
+  "json": true
+ }
+}
