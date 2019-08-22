@@ -18,7 +18,7 @@ Integartion
 
 Ex.
 
-Feature: validate for all user
+> Feature: validate for all user
 Scenario: to access reqres.in and perform basic api test to fetch users
 Given I access api request end point to get users 
 Then Verify below response for the user
