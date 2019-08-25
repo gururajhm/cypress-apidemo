@@ -1,6 +1,10 @@
 /* eslint-disable new-cap */
 /// <reference types="cypress" />
 import { Given, Then, When} from 'cypress-cucumber-preprocessor/steps';
+//import * as fs from 'fs'
+const fs = require('fs')
+var request = require('request')
+let suser =''
 
 var page;
 var singleuser;
@@ -42,13 +46,18 @@ Given(/^I access api request end point to get single user only$/, () => {
 });
 
 
-Given(/^Verify the response like id email firstname lastname$/, () => {
+Given(/^Verify the response like id email firstname lastname from fixture$/, () => {
+	// read data fromjson and then validate the response data	 
+		cy
+			.fixture('/users/userdata')
+			.then((userdata) => {
+				cy.get('@singleuser').should((response) => {
+ 				expect(response.status).to.eq(200)	
+   				assert.equal(response.body.data.first_name,userdata.first_name)
+				assert.equal(response.body.data.last_name,userdata.last_name)
+				assert.equal(response.body.data.email,userdata.email)
+
+		});
  
-	cy.get('@singleuser').should((response) => {
-		expect(response.status).to.eq(200);
-		assert.equal(response.body.data.first_name,'Janet')
-		assert.equal(response.body.data.last_name,'Weaver')
-		assert.equal(response.body.data.email,'janet.weaver@reqres.in')
-	
 	})
 });
