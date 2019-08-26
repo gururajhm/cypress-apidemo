@@ -72,7 +72,8 @@ Ex.
     output from mochawesome and generates a full fledged HTML/CSS report that helps 		
     visualize your test suites. For installation refer this link https://www.npmjs.com/package/mochawesome-report-generator
     
-    Output files are generated output.html file under mochawesome-report folder, and sample reports looks like this
+    Output files are generated output.html file under mochawesome-report folder, 
+    and sample reports looks like this
     
 ![Mocha Report](/images/mochareport.png)
  
