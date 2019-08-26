@@ -74,7 +74,7 @@ Ex.
     
     Output files are generated output.html file under mochawesome-report folder, and sample reports looks like this
     
- ![](Screenshot 2019-08-26 at 11.57.47)    
+![Mocha Report](/images/mochareport.png)
  
  
 # How to run scripts
@@ -96,7 +96,7 @@ Ex.
  # How to run scripts in Circle CI
  
  
- 
+ Read more about circle ci here - https://circleci.com/docs/2.0/about-circleci/
  
  ### What is Continuous Integration?
 
@@ -110,17 +110,19 @@ Continuous Integration is a key step to digital transformation.
 	If build and test fails, it’s repaired quickly - within minutes.
 
 	Why? 
-	Improve team productivity, efficiency, happiness. Find problems and solve them, 		quickly. Release higher quality, more stable products.
+	Improve team productivity, efficiency, happiness.
+    Find problems and solve them, quickly. 
+    Release higher quality, more stable products.
 
 
 
 ### Configure job in Circle CI
 
-		sdfdfversion: 2
+	version: 2
 
-jobs:
-  build:
-    docker:
+	jobs:
+ 	 build:
+  	  docker:
 
       - image: cypress/base:8
         environment:
@@ -161,5 +163,6 @@ jobs:
   
   ### Sample output of Circle CI
 
+![Circle Ci Report](/images/CircleCI.png)
 
 
