@@ -8,7 +8,7 @@
 
   "reporter": "mochawesome",
   "reporterOptions": {
-  "overwrite": true,
+  "overwrite": false,
   "html": false,
   "json": true
  }
