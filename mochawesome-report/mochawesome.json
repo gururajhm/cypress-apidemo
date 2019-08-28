@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-08-26T09:29:15.816Z",
+    "end": "2019-08-26T09:29:16.037Z",
+    "duration": 221,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7816b439-c516-4911-913d-d683b385e77a",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b3f61efd-c822-4501-bf01-d8aaebe4b0f5",
+          "title": "data driven test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A calculation (example #1)",
+              "fullTitle": "data driven test A calculation (example #1)",
+              "timedOut": null,
+              "duration": 72,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep, rowData);\n});",
+              "err": {},
+              "uuid": "f72fc0c6-f8e8-458a-b444-b013dae94843",
+              "parentUUID": "b3f61efd-c822-4501-bf01-d8aaebe4b0f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A calculation (example #2)",
+              "fullTitle": "data driven test A calculation (example #2)",
+              "timedOut": null,
+              "duration": 44,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep, rowData);\n});",
+              "err": {},
+              "uuid": "b6557093-3847-469c-8741-f051ab59f1b7",
+              "parentUUID": "b3f61efd-c822-4501-bf01-d8aaebe4b0f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A calculation (example #3)",
+              "fullTitle": "data driven test A calculation (example #3)",
+              "timedOut": null,
+              "duration": 41,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep, rowData);\n});",
+              "err": {},
+              "uuid": "8fdb10d5-31d6-4ab1-8e88-f08206443ad6",
+              "parentUUID": "b3f61efd-c822-4501-bf01-d8aaebe4b0f5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f72fc0c6-f8e8-458a-b444-b013dae94843",
+            "b6557093-3847-469c-8741-f051ab59f1b7",
+            "8fdb10d5-31d6-4ab1-8e88-f08206443ad6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 157,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": true,
+        "html": false,
+        "json": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}

@@ -63,6 +63,8 @@
     "cross-env": "^5.2.0",
     "istanbul-lib-coverage": "^2.0.5",
     "nyc": "^14.1.1",
+    "fs-extra": "8.1.0",
+    "graceful-fs": "4.2.2",
     "@cypress/code-coverage": "^1.8.0",
     "colon-names": "1.0.0",
     "cucumber": "4.0.0",

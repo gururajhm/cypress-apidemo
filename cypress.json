@@ -3,7 +3,7 @@
   "chromeWebSecurity": false,
 
   "env": {
-    "URL": "https://reqres.in"
+    "URL": "https://reqres.in/"
   },
 
   "reporter": "mochawesome",
