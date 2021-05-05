@@ -15,7 +15,7 @@ https://reqres.in is a demo website where people can try out the API test. In th
 
 	Delete Users
 
-## Folder Structure 
+## Folder Structure as..
 ### Integartion 
     this contains all the feature file like getUsers and getSingle users 
 
